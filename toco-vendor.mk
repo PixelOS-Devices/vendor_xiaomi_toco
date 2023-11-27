@@ -148,6 +148,7 @@ PRODUCT_PACKAGES += \
     libsn100u_fw \
     libsndmonitor \
     libspkrprot \
+    libxlog \
     com.qti.sensor.toco_gc02m1_macro \
     com.qti.sensor.toco_imx686_wide \
     com.qti.sensor.toco_ov16a10_front \
