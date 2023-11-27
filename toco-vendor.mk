@@ -288,6 +288,7 @@ PRODUCT_PACKAGES += \
     libremosaic_daemon \
     libremosaiclib \
     libsdk_sr \
+    libsensorcal \
     libsensorslog \
     libsns_device_mode_stub \
     libsns_fastRPC_util \
@@ -295,6 +296,8 @@ PRODUCT_PACKAGES += \
     libsnsapi \
     libsnsdiaglog \
     libssc \
+    libssc_default_listener \
+    libssccalapi \
     libst_sr_models \
     libswregistrationalgo \
     libthermalclient \
