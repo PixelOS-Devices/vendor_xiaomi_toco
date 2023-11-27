@@ -263,7 +263,7 @@ PRODUCT_PACKAGES += \
     libmialgo_sd \
     libmialgo_utils \
     libmibokeh_712 \
-    libmpbase \
+    libmpbase_vendor \
     libnotifyaudiohal \
     liboemcrypto \
     libremosaic_daemon \
