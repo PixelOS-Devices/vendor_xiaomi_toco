@@ -117,6 +117,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/toco/proprietary/vendor/firmware/ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.elf \
     vendor/xiaomi/toco/proprietary/vendor/firmware/ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.mdt \
     vendor/xiaomi/toco/proprietary/vendor/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx.cnt \
+    vendor/xiaomi/toco/proprietary/vendor/lib/rfsa/adsp/dirac_resource.dar:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/dirac_resource.dar \
+    vendor/xiaomi/toco/proprietary/vendor/lib/rfsa/adsp/misound_karaoke_res.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/misound_karaoke_res.bin \
+    vendor/xiaomi/toco/proprietary/vendor/lib/rfsa/adsp/misound_karaokemix_res.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/misound_karaokemix_res.bin \
+    vendor/xiaomi/toco/proprietary/vendor/lib/rfsa/adsp/misound_res.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/misound_res.bin \
     vendor/xiaomi/toco/proprietary/vendor/lib64/camera/com.qti.sensormodule.toco_gc02m1_macro.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.toco_gc02m1_macro.bin \
     vendor/xiaomi/toco/proprietary/vendor/lib64/camera/com.qti.sensormodule.toco_imx686_full_wide.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.toco_imx686_full_wide.bin \
     vendor/xiaomi/toco/proprietary/vendor/lib64/camera/com.qti.sensormodule.toco_imx686_wide.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.toco_imx686_wide.bin \
@@ -140,6 +144,8 @@ PRODUCT_PACKAGES += \
     libarcsoft_single_chart_calibration \
     libcamera_algoup_jni.xiaomi \
     libcamera_mianode_jni.xiaomi \
+    libsns_device_mode_skel \
+    libsns_low_lat_stream_skel \
     btaudio_offload_if \
     audio.primary.sm6150 \
     liba2dpoffload \
@@ -158,8 +164,28 @@ PRODUCT_PACKAGES += \
     libsn100u_fw \
     libsndmonitor \
     libspkrprot \
+    capi_v2_aptX_CLHDAD_Encoder \
+    capi_v2_aptX_Classic \
+    capi_v2_aptX_HD \
     libSuperSensor_skel \
+    libVC1Dec \
+    libVC1DecDsp_skel \
     libVDHexagonSuperPhoto_skel \
+    libapps_mem_heap \
+    libarcsoft_dualcam_refocus_skel \
+    libcamera_nn_skel \
+    libcvpdsp_skel \
+    libdirac-capiv2 \
+    libdspCV_skel \
+    libdsp_streamer_add_constant \
+    libdsp_streamer_binning \
+    libdsp_streamer_skel \
+    libfastcvadsp \
+    libfastcvdsp_skel \
+    libhexagon_nn_skel \
+    libhexagon_nn_skel_secondary \
+    libscveObjectSegmentation_skel \
+    libscveT2T_skel \
     libxlog \
     com.qti.sensor.toco_gc02m1_macro \
     com.qti.sensor.toco_imx686_wide \
