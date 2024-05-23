@@ -164,28 +164,6 @@ PRODUCT_PACKAGES += \
     libsn100u_fw \
     libsndmonitor \
     libspkrprot \
-    capi_v2_aptX_CLHDAD_Encoder \
-    capi_v2_aptX_Classic \
-    capi_v2_aptX_HD \
-    libSuperSensor_skel \
-    libVC1Dec \
-    libVC1DecDsp_skel \
-    libVDHexagonSuperPhoto_skel \
-    libapps_mem_heap \
-    libarcsoft_dualcam_refocus_skel \
-    libcamera_nn_skel \
-    libcvpdsp_skel \
-    libdirac-capiv2 \
-    libdspCV_skel \
-    libdsp_streamer_add_constant \
-    libdsp_streamer_binning \
-    libdsp_streamer_skel \
-    libfastcvadsp \
-    libfastcvdsp_skel \
-    libhexagon_nn_skel \
-    libhexagon_nn_skel_secondary \
-    libscveObjectSegmentation_skel \
-    libscveT2T_skel \
     libxlog \
     com.qti.sensor.toco_gc02m1_macro \
     com.qti.sensor.toco_imx686_wide \
@@ -257,9 +235,9 @@ PRODUCT_PACKAGES += \
     com.qti.chi.override \
     consumerir.sm6150 \
     fingerprint.goodix_fod.sm6150 \
+    libFaceDetectpp-0.5.2 \
     libFaceGrade \
     libHalSuperSensorServer \
-    libFaceDetectpp-0.5.2 \
     libSuperSensor \
     libSuperSensorCPU \
     libVDClearShot \
@@ -297,11 +275,11 @@ PRODUCT_PACKAGES += \
     libcapiv2svacnn \
     libcapiv2vop \
     libcom.qti.chinodeutils \
+    libfacedet \
     libft2vendor \
     libgf_hal \
     libhvx_interface \
     liblearningmodule \
-    libfacedet \
     libmialgo_fs \
     libmialgo_rfs \
     libmialgo_sd \
@@ -338,6 +316,30 @@ PRODUCT_PACKAGES += \
     sensors.mius.proximity \
     sensors.ssc \
     sensors.touch \
+    capi_v2_aptX_CLHDAD_Encoder \
+    capi_v2_aptX_Classic \
+    capi_v2_aptX_HD \
+    libSuperSensor_skel \
+    libVC1Dec \
+    libVC1DecDsp_skel \
+    libVDHexagonSuperPhoto_skel \
+    libapps_mem_heap \
+    libarcsoft_dualcam_refocus_skel \
+    libcamera_nn_skel \
+    libcvpdsp_skel \
+    libdirac-capiv2 \
+    libdspCV_skel \
+    libdsp_streamer_add_constant \
+    libdsp_streamer_binning \
+    libdsp_streamer_skel \
+    libfastcvadsp \
+    libfastcvdsp_skel \
+    libhexagon_nn_skel \
+    libhexagon_nn_skel_secondary \
+    libscveObjectSegmentation_skel \
+    libscveT2T_skel \
+    libsns_device_mode_skel \
+    libsns_low_lat_stream_skel \
     batterysecret \
     mi_thermald \
     sensors.qti \
