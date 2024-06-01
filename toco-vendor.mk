@@ -158,7 +158,6 @@ PRODUCT_PACKAGES += \
     libhdmiedid \
     libhfp \
     libqtigef \
-    libsn100u_fw \
     libsndmonitor \
     libspkrprot \
     libxlog \
@@ -291,6 +290,7 @@ PRODUCT_PACKAGES += \
     libsdk_sr \
     libsensorcal \
     libsensorslog \
+    libsn100u_fw \
     libsns_device_mode_stub \
     libsns_fastRPC_util \
     libsns_low_lat_stream_stub \
