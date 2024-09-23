@@ -140,8 +140,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/toco/proprietary/vendor/lib64/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideolite.bin
 
 PRODUCT_PACKAGES += \
-    libsns_device_mode_skel \
-    libsns_low_lat_stream_skel \
     btaudio_offload_if \
     audio.primary.sm6150 \
     liba2dpoffload \
