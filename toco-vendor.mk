@@ -279,8 +279,12 @@ PRODUCT_PACKAGES += \
     libmialgoengine \
     libmibokeh_712 \
     libmpbase \
+    libnanopb \
     libnotifyaudiohal \
     liboemcrypto \
+    libperfconfig \
+    libperfgluelayer \
+    libqti-util \
     libremosaic_daemon \
     libremosaiclib \
     libsdk_sr \
