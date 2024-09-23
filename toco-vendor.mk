@@ -120,10 +120,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/toco/proprietary/vendor/firmware/ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.elf \
     vendor/xiaomi/toco/proprietary/vendor/firmware/ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.mdt \
     vendor/xiaomi/toco/proprietary/vendor/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx.cnt \
-    vendor/xiaomi/toco/proprietary/vendor/lib/rfsa/adsp/dirac_resource.dar:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/dirac_resource.dar \
-    vendor/xiaomi/toco/proprietary/vendor/lib/rfsa/adsp/misound_karaoke_res.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/misound_karaoke_res.bin \
-    vendor/xiaomi/toco/proprietary/vendor/lib/rfsa/adsp/misound_karaokemix_res.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/misound_karaokemix_res.bin \
-    vendor/xiaomi/toco/proprietary/vendor/lib/rfsa/adsp/misound_res.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/misound_res.bin \
     vendor/xiaomi/toco/proprietary/vendor/lib64/camera/com.qti.sensormodule.toco_gc02m1_macro.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.toco_gc02m1_macro.bin \
     vendor/xiaomi/toco/proprietary/vendor/lib64/camera/com.qti.sensormodule.toco_imx686_full_wide.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.toco_imx686_full_wide.bin \
     vendor/xiaomi/toco/proprietary/vendor/lib64/camera/com.qti.sensormodule.toco_imx686_wide.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.toco_imx686_wide.bin \
@@ -319,6 +315,7 @@ PRODUCT_PACKAGES += \
     capi_v2_aptX_CLHDAD_Encoder \
     capi_v2_aptX_Classic \
     capi_v2_aptX_HD \
+    dirac_resource \
     libSuperSensor_skel \
     libVC1Dec \
     libVC1DecDsp_skel \
@@ -340,6 +337,9 @@ PRODUCT_PACKAGES += \
     libscveT2T_skel \
     libsns_device_mode_skel \
     libsns_low_lat_stream_skel \
+    misound_karaoke_res \
+    misound_karaokemix_res \
+    misound_res \
     batterysecret \
     mi_thermald \
     sensors.qti \
